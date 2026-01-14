@@ -1,0 +1,1905 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /****************************** home page css starts here ******************************/
+
+    .top-mid {
+        transform: scaleX(1.1);
+
+    }
+
+    .top-mid p {
+        transform: skewX(0deg);
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #topheader {
+        overflow: hidden;
+        text-align: center;
+    }
+#counter_number .dropdown-menu[data-bs-popper] {
+    top: -49%;
+    left: 8%;
+    margin-top: .125rem;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid red;
+    border: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 412px){
+  
+}
+
+    .navbar-brand {
+        left: 0%;
+        transform: translateX(0);
+    }
+
+    .toggle-btn-mobile {
+        display: block;
+    }
+
+    .mobile-menu {
+        width: 270px;
+    }
+
+
+    .mobile-menu-icons a {
+        margin: 0 5px !important;
+    }
+
+    .nav-tabs {
+        justify-content: center;
+    }
+
+    .top-mid p {
+        padding: 5px 0px;
+    }
+
+    #banner .banner-icons {
+        display: none;
+    }
+
+    .banner-content p {
+        line-height: 22px;
+        padding: 5px 0 10px 0;
+        font-size: 12px;
+    }
+
+    .banner-content h1 {
+        font-size: 20px;
+    }
+
+    .banner-content {
+        height: 300px;
+        text-align: center;
+    }
+
+    .banner-content:after {
+        inset: 0;
+    }
+
+    .banner-button a {
+        padding: 10px 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    #ourservice {
+        padding-top: 20px;
+    }
+
+
+
+    .service-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .service-heading span {
+        font-size: 13px;
+    }
+
+    .service-heading span p {
+        display: inline-block;
+    }
+
+    .service-text {
+        padding: 15px;
+    }
+
+    .about-us-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about-us-heading {
+        text-align: center;
+    }
+
+    .tabs button a {
+        margin-right: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .tabs button a:after {
+        bottom: -7px;
+    }
+
+    .tab-pane p {
+        line-height: 19px;
+        font-size: 12px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .company-btn a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    #portfolio {
+        padding-top: 20px;
+    }
+
+    .portfolio-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .portfolio-heading span {
+        font-size: 13px;
+    }
+
+    .portfolio-heading p {
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .portfolio-img img {
+        width: 100%;
+
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #counter {
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+
+    .counter h2 {
+        font-size: 24px;
+    }
+
+    .counter p {
+        font-size: 14px;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+        padding: 8px 0;
+    }
+
+    #ourblog {
+        padding-top: 20px;
+    }
+
+    .blog-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .blog-heading span {
+        font-size: 13px;
+    }
+
+    .blog-slider {
+        padding-top: 20px;
+    }
+
+    #ourblog .our-icons {
+        display: none;
+    }
+
+    .blog-text h4 {
+        font-size: 14px;
+    }
+
+    .blog-text ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .testimonial-heading span {
+        font-size: 13px;
+    }
+
+    .testimonial-img-slider {
+        width: 300px;
+    }
+
+    .testi-text {
+        width: initial;
+        margin-top: 20px;
+    }
+
+    .testimonial-bg {
+        height: 360px;
+        margin-top: 30px;
+    }
+
+    #brand {
+        padding-top: 30px;
+    }
+
+    .brand-item.slick-center .brand-img {
+        display: inline-block;
+    }
+
+    .brand-item {
+        text-align: center;
+    }
+
+    #brand .brand-arrow-l {
+        top: 65%;
+        transform: translateY(-65%);
+    }
+
+    #brand .brand-arrow-r {
+        top: 65%;
+        transform: translateY(-65%);
+    }
+
+    #footer {
+        margin-top: 20px;
+    }
+
+    #footer {
+        margin-top: 20px;
+        padding-top: 25px;
+        text-align: center;
+
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .address {
+        justify-content: center;
+    }
+
+    .footer-news-info p {
+        font-size: 12px;
+    }
+
+    .footer-news-info span {
+        font-size: 12px;
+    }
+
+    .footer-news-likes {
+        margin-top: 0px;
+    }
+
+    .footer-news-likes a {
+        font-size: 12px;
+    }
+
+    .copyright-text p {
+        font-size: 12px;
+    }
+
+    /****************************** home page css ends here ******************************/
+
+
+    /****************************** about page css ends here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    #about-bg h2 {
+        font-size: 30px;
+    }
+
+    .about-us-bg-items {
+        padding-top: 70px;
+    }
+
+    #about-produsty {
+        padding-top: 20px;
+    }
+
+    .produsty-text {
+        text-align: center;
+    }
+
+    .produsty-text h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #our-mission {
+        padding-top: 20px;
+    }
+
+    .mission-text {
+        text-align: center;
+    }
+
+    .mission-text ul {
+        margin-left: 0px;
+    }
+
+    .mission-text ul li span {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    #our-team {
+        padding-top: 30px;
+        height: 740px;
+    }
+
+    .our-team-heading h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    #our-team .our-icons {
+        display: none;
+    }
+
+    /****************************** about page css ends here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    .th-list {
+        justify-content: center;
+    }
+
+    .select-list {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .next {
+        justify-content: center;
+    }
+
+    .select-list span {
+        font-size: 12px;
+    }
+
+    .select-list select {
+        padding: 8px 10px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .next .pages {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    .pagination li a {
+        padding: 8px 10px;
+    }
+
+    #list-view {
+        padding-top: 20px;
+        overflow: hidden;
+    }
+
+    .blog-image-text {
+        width: 280px;
+        transform: translateX(-50%);
+        background-color: #f1f1f1;
+        padding: 40px 10px 10px 10px;
+    }
+
+    .blog-image-text h3 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .blog-image-text ul li a {
+        font-size: 11px;
+    }
+
+    .blog-image-text ul {
+        flex-wrap: wrap;
+    }
+
+    .blog-image-text p {
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .blog-main {
+        text-align: center;
+        margin-bottom: 205px;
+    }
+
+    .tab-main {
+        flex-wrap: nowrap;
+    }
+
+    .tab-text h5 {
+        font-size: 12px;
+    }
+
+    .tab-text-link a {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+
+    .custom-tab-pane {
+        margin: 0;
+    }
+
+    .categories h5 {
+        margin-bottom: 10px;
+    }
+
+    .tags h5 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .tags ul li a {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .video-attatch {
+        margin-top: 20px;
+    }
+
+    .blog-button-bottom {
+        margin-top: 15px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
+
+    /****************************** blog details veiw page css starts here ******************************/
+    .leave-a-reply .blog-button-bottom {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .blogspot-description p {
+        padding: 10px 0;
+    }
+
+    .blogspot-right {
+        padding-left: 5px;
+    }
+
+    .blogspot-right h4 span {
+        display: block;
+        float: initial;
+        padding: 5px 0;
+    }
+
+    .blogspot-right p {
+        padding: 2px 0;
+    }
+
+    .blogspot-left img {
+        width: 50px;
+    }
+
+    .blogspot-right h4 {
+        font-size: 14px;
+    }
+
+    .blogspot-right h4 span {
+        font-size: 12px;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: min-content;
+    }
+
+    .error-text h1 {
+        font-size: 65px;
+        line-height: 66px;
+    }
+
+    .error-text h1:before {
+        width: 6px;
+        height: 18px;
+        transform: translateX(-60%);
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+        overflow: hidden;
+    }
+
+    .comming-soon-timer {
+        height: 80px;
+        width: 80px;
+        margin: 35px 30px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 24px;
+    }
+
+    .timer-items p {
+        font-size: 12px;
+    }
+
+    .comming-main {
+        margin: 20px 0;
+    }
+
+    .subscribe .input-group input {
+        height: 50px;
+    }
+
+    .subscribe .input-group span {
+        padding: 13px 14px;
+        margin-right: 45px;
+    }
+
+    .comming-soon-icons {
+        margin-top: 30px;
+    }
+
+    .subscribe .input-group {
+        width: 343px;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .animated-button a {
+        padding: 13px 15px;
+        font-size: 14px;
+    }
+
+    .blog-text-custom {
+        padding: 15px 10px;
+        padding-top: 95px;
+    }
+
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 13px;
+    }
+
+    .blog-button-custom a {
+        padding: 13px 18px;
+        font-size: 12px;
+    }
+
+    .blog-content-custom {
+        height: 540px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form {
+        background-image: none;
+        margin-top: 15px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    #contact-us-icon {
+        padding: 20px 0;
+    }
+
+    #map iframe {
+        height: 250px;
+    }
+
+
+    /****************************** contact us page css ends here ******************************/
+
+    .mobile-menu {
+        display: block;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /****************************** home page css starts here ******************************/
+    #bottomheader ul {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
+    #bottomheader .navbar ul>li>a {
+        padding: 0px 0px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .toggle-btn-mobile {
+        display: block;
+    }
+
+    .navbar-brand {
+        left: 10%;
+    }
+
+    .top-mid {
+        transform: scaleX(1.1);
+        height: 40px;
+    }
+
+    .top-mid p {
+        transform: skewX(0deg);
+        padding: 10px 0px;
+    }
+
+    .top-left {
+        height: 42px;
+        text-align: center;
+    }
+
+    .top-right {
+        height: 42px;
+        text-align: center;
+    }
+
+    .top-left p {
+        padding-left: 0;
+        line-height: 43px;
+    }
+
+    .top-right ul {
+        padding: 8px 0;
+    }
+
+    #topheader {
+        overflow: hidden;
+    }
+
+    #banner .banner-arrow-l {
+        display: none !important;
+    }
+
+    #banner .banner-arrow-r {
+        display: none !important;
+    }
+
+    .banner-content {
+        height: 400px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-items {
+        text-align: center;
+    }
+
+    .banner-button a {
+        padding: 14px 10px;
+    }
+
+    #ourservice {
+        padding-top: 30px;
+    }
+
+    .service-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #about-us {
+        padding-top: 30px;
+    }
+
+    .about-us-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .company-btn a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .tab-pane p {
+        padding-bottom: 15px;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .company-btn {
+        text-align: center;
+    }
+
+    #portfolio {
+        padding-top: 30px;
+    }
+
+    .portfolio-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #counter {
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .nav-tabs {
+        justify-content: center;
+    }
+
+    .tabs button a {
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+
+
+    #portfolio .portfolio-arrow-l {
+        display: none !important;
+    }
+
+    #portfolio .portfolio-arrow-r {
+        display: none !important;
+    }
+
+    .counter h2 {
+        font-size: 25px;
+    }
+
+    .counter p {
+        font-size: 16px;
+    }
+
+    .counter {
+        padding: 5px 0px;
+    }
+
+    #ourblog {
+        padding-top: 30px;
+    }
+
+    .blog-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #ourblog .our-arrow-l {
+        display: none !important;
+    }
+
+    #ourblog .our-arrow-r {
+        display: none !important;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #testimonial .testimonial-arrow-l {
+        display: none !important;
+    }
+
+    #testimonial .testimonial-arrow-r {
+        display: none !important;
+    }
+
+    .brand-img {
+        display: inline-block;
+    }
+
+    .brand-item {
+        text-align: center;
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .footer-icons a {
+        margin-right: 0;
+    }
+
+    .footer-news-img img {
+        max-width: initial;
+    }
+
+    .footer-news-info p {
+        font-size: 11px;
+    }
+
+    .footer-news-info span {
+        font-size: 11px;
+    }
+
+    .footer-news-likes {
+        margin-top: 0;
+    }
+
+    .footer-news-likes a {
+        font-size: 11px;
+    }
+
+    /****************************** home page css ends here ******************************/
+
+
+    /****************************** about us page css ends here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    #about-produsty {
+        padding-top: 30px;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #our-mission {
+        padding-top: 30px;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #our-team {
+        padding-top: 40px;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    .about-us-bg-items {
+        padding-top: 70px;
+    }
+
+    #about-bg h2 {
+        font-size: 33px;
+    }
+
+    .produsty-text h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .produsty-text {
+        text-align: center;
+    }
+
+    .mission-text h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .mission-text p {
+        text-align: center;
+    }
+
+    .mission-text ul li span {
+        font-size: 13px;
+    }
+
+    .our-team-heading h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    #our-team {
+        height: 740px;
+    }
+
+    /****************************** about us page css ends here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .th-list {
+        justify-content: center;
+    }
+
+    .select-list {
+        text-align: center;
+    }
+
+    .next {
+        justify-content: center;
+    }
+
+    .select-list select {
+        margin-right: 10px;
+    }
+
+    .select-list {
+        padding: 15px 0;
+    }
+
+    .blog-image-text {
+        width: 450px;
+        padding: 50px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .blog-image-text h3 {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .blog-image-text p {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .blog-image-text ul {
+        justify-content: center;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .video-attatch img {
+        width: 100%;
+    }
+
+    .blog-button-bottom {
+        margin: 20px 0;
+    }
+
+    #footer {
+        margin-top: 30px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: 480px;
+    }
+
+    .error-text h1 {
+        font-size: 110px;
+        line-height: 150px;
+    }
+
+    .error-text h1:before {
+        width: 12px;
+        height: 29px;
+    }
+
+    .error-text {
+        transform: translateX(-44%);
+    }
+
+    .error-text h1 {
+        line-height: 109px;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+        overflow: hidden;
+    }
+
+    .comming-soon-timer {
+        height: 100px;
+        width: 100px;
+        margin: 40px 60px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 30px;
+    }
+
+    .timer-items p {
+        font-size: 16px;
+    }
+
+    .comming-main {
+        margin: 20px 0;
+    }
+
+    .subscribe .input-group input {
+        height: 50px;
+    }
+
+    .subscribe .input-group span {
+        padding: 13px 25px;
+        margin-right: 45px;
+    }
+
+    .comming-soon-icons {
+        margin-top: 30px;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .portfolio-overlay {
+        padding-top: 30px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+
+    /****************************** blog details page css ends here ******************************/
+    .blog-text-custom {
+        padding: 15px 8px;
+        padding-top: 95px;
+    }
+
+    .blog-text-custom h4 {
+        font-size: 13px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 11px;
+    }
+
+    .blog-text-custom p {
+        font-size: 13px;
+        padding: 8px 0;
+    }
+
+    .blog-button-custom a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .blog-content-custom {
+        height: 455px;
+    }
+
+    /****************************** blog details page css ends here ******************************/
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form {
+        background-image: none;
+        margin-top: 15px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    #contact-us-icon {
+        padding: 20px 0;
+    }
+
+    #map iframe {
+        height: 300px;
+    }
+
+
+    /****************************** contact us page css ends here ******************************/
+
+
+
+    .mobile-menu {
+        display: block;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /****************************** home page css starts here ******************************/
+    #topheader {
+        font-size: 12px;
+    }
+
+    #bottomheader .navbar ul>li>a {
+        padding: 20px 0px;
+    }
+
+    .banner-content {
+        height: 500px;
+    }
+
+    .banner-items {
+        left: 80px;
+    }
+
+    .banner-button a {
+        padding: 12px 10px;
+    }
+
+    #ourservice {
+        padding-top: 40px;
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #about-us {
+        padding-top: 40px;
+    }
+
+    .tabs {
+        padding-left: 26px;
+    }
+
+    .about-us-heading h2 {
+        margin-bottom: 10px;
+        padding-left: 26px;
+    }
+
+    #portfolio {
+        padding-top: 40px;
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #ourblog {
+        padding-top: 40px;
+    }
+
+
+
+    .blog-text {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .blog-text h4 {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .blog-text ul li a {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .blog-text p {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 10px 15px;
+    }
+
+    #ourblog .our-arrow-l {
+        top: 73%;
+        left: 15%;
+    }
+
+    #ourblog .our-arrow-r {
+        top: 73%;
+        right: 15%;
+    }
+
+    #brand .brand-icons {
+        display: none;
+    }
+
+    #footer {
+        margin-top: 40px;
+    }
+
+    /****************************** home page css starts here ******************************/
+
+
+    /****************************** about us page css starts here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #about-produsty {
+        padding-top: 20px;
+    }
+
+    #our-mission {
+        padding-top: 20px;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #our-team {
+        padding-top: 50px;
+    }
+
+    #our-team .our-icons {
+        display: none;
+    }
+
+    .team-img {
+        height: 270px;
+    }
+
+    .team-info {
+        clip-path: polygon(0% 31%, 100% 8%, 100% 100%, 0% 100%);
+        position: relative;
+        top: -34px;
+    }
+
+    .team-info ul li {
+        padding: 0px;
+    }
+
+    .team-items.slick-center .team-info {
+        clip-path: polygon(0% 17%, 100% 0%, 100% 100%, 0% 100%);
+        top: -24px;
+    }
+
+    #our-team {
+        height: 670px;
+    }
+
+    #footer {
+        padding-top: 30px;
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .about-us-bg-items {
+        padding-top: 60px;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    /****************************** about us page css starts here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .select-list {
+        text-align: start;
+    }
+
+    .blog-image-text {
+        width: 405px;
+        padding: 55px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .blog-main {
+        margin-bottom: 205px;
+    }
+
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    .pagination li a {
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+
+    .select-list select {
+        padding: 10px 14px;
+        font-size: 11px;
+        margin-right: 0px;
+    }
+
+    .next .pages {
+        font-size: 12px;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    .blog-img-text-content {
+        padding-top: 40px;
+    }
+
+    .blog-image-text h3 {
+        font-size: 14px;
+        margin: 0px 0;
+    }
+
+    .blog-image-text p {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .blog-image-text ul {
+        justify-content: center;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .tab-main .tab-menu {
+        font-size: 14px;
+        padding: 0px 12px 0px 0px;
+    }
+
+    .tab-text {
+        padding-left: 5px;
+    }
+
+    .tab-text h5 {
+        font-size: 11px;
+    }
+
+    .custom-tab-pane {
+        margin: 0;
+    }
+
+    .categories h5 {
+        margin-bottom: 15px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
+
+    /****************************** blog details veiw page css starts here ******************************/
+    #list-view {
+        padding-top: 40px;
+    }
+
+    .blogspot-description p {
+        padding: 10px 0;
+    }
+
+    .leave-a-reply .blog-button-bottom {
+        margin-bottom: 25px;
+    }
+
+    .video-attatch img {
+        width: 100%;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: 645px;
+    }
+
+    .error-text h1 {
+        font-size: 160px;
+        line-height: 162px;
+    }
+
+    .error-text h1:before {
+        height: 43px;
+        width: 15px;
+    }
+
+    .error-text {
+        transform: translateX(-44%);
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+    }
+
+    .comming-soon-timer {
+        height: 100px;
+        width: 100px;
+        margin: 0px 35px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 30px;
+    }
+
+    .timer-items p {
+        font-size: 16px;
+    }
+
+    .comming-main {
+        margin: 50px 0;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
+
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .portfolio-overlay {
+        padding-top: 60px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+
+    /****************************** blog grid  page css starts here ******************************/
+
+
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button-custom a {
+        padding: 12px 15px;
+    }
+
+    /****************************** blog grid  page css ends here ******************************/
+
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form form {
+        width: 310px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    /****************************** contact us page css ends here ******************************/
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /****************************** home page css starts here ******************************/
+
+    .top-left p {
+        font-size: 12px;
+    }
+
+    .banner-items {
+        left: 85px;
+    }
+
+    .banner-button a {
+        padding: 13px 18px;
+    }
+
+    .tabs button a {
+        margin-right: 35px;
+    }
+
+    .about-us-heading h2 {
+        margin-bottom: 8px;
+    }
+
+    .tab-pane p {
+        padding-bottom: 8px;
+    }
+
+    .about-us-bg img {
+        left: 54%;
+    }
+
+    .company-btn a {
+        padding: 10px 15px;
+        position: absolute;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #ourblog .our-arrow-r {
+        top: 75%;
+        right: 10%;
+    }
+
+    #ourblog .our-arrow-l {
+        top: 75%;
+        left: 10%;
+    }
+
+    .blog-text h4 {
+        font-size: 15px;
+    }
+
+    .blog-text ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 12px 16px;
+    }
+
+    .testimonial-img-item img {
+        width: initial;
+    }
+
+    #brand .brand-icons {
+        display: none;
+    }
+
+    .footer-icons a {
+        margin-right: 5px;
+    }
+
+    .info-add a {
+        font-size: 12px;
+    }
+
+    /****************************** home page css ends here ******************************/
+
+
+
+
+    /****************************** about us page css ends here ******************************/
+    .mission-text ul {
+        margin-left: 0px;
+    }
+
+    .mission-text ul li span {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+
+    .mission-bg img {
+        right: 65%;
+    }
+
+    .footer-news-info p {
+        font-size: 11px;
+    }
+
+    .produsty-bg img {
+        right: -26%;
+    }
+
+    .produsty-text p {
+        font-size: 14px;
+        padding: 10px 0;
+        line-height: 20px;
+    }
+
+    .produsty-text {
+        padding: 0 35px;
+    }
+
+    .produsty-bg img {
+        right: -108px;
+    }
+
+    /****************************** about us page css ends here ******************************/
+
+
+    /****************************** blog list page css starts here ******************************/
+    .select-list {
+        text-align: center;
+    }
+
+    .blog-image-text {
+        width: 550px;
+        padding: 80px 20px 30px 20px;
+    }
+
+    .blog-main {
+        margin-bottom: 205px;
+    }
+
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
+
+    /****************************** blog details veiw page css starts here ******************************/
+    .tab-main .tab-menu {
+        padding: 0px 15px 0px 12px;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+
+    /****************************** comming soon page css starts here ******************************/
+    .comming-soon-timer {
+        height: 130px;
+        width: 130px;
+        margin: 0px 45px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 25px);
+        left: -13px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 25px);
+        bottom: -13px;
+    }
+
+
+    /****************************** comming soon page css ends here ******************************/
+
+
+    /****************************** error page css ends here ******************************/
+    .error-text {
+        left: 251px;
+        transform: translateX(-0%);
+    }
+
+    #error {
+        height: min-content;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+    /****************************** blog grid view page css ends here ******************************/
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+
+
+    .blog-text-custom ul li a {
+
+        font-size: 12px;
+    }
+
+    #ourblog {
+        padding-top: 40px;
+    }
+
+    .blog-text-custom {
+        padding: 30px 15px;
+        padding-top: 95px;
+    }
+
+    #footer {
+        margin-top: 50px;
+    }
+
+    .blog-content-custom {
+        height: 562px;
+    }
+
+    /****************************** blog grid view page css ends here ******************************/
+
+
+    /****************************** contact us page css ends here ******************************/
+    .contact-us-desc p,
+    .contact-us-desc p a {
+        font-size: 13px;
+    }
+
+    #map iframe {
+        height: 390px;
+    }
+
+    #newsletter {
+        padding-top: 45px;
+    }
+
+    /****************************** contact us page css ends here ******************************/
+
+}
