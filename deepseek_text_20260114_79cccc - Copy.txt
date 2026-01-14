@@ -1,0 +1,25 @@
+ora-agency/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Admin/
+│   │   │   ├── Frontend/
+│   │   │   └── Api/
+│   │   └── Middleware/
+│   ├── Models/
+│   ├── Services/
+│   └── View/Components/
+├── database/
+│   ├── migrations/
+│   ├── seeders/
+│   └── factories/
+├── public/
+│   ├── assets/
+│   └── uploads/
+├── resources/
+│   ├── views/
+│   ├── lang/
+│   └── js/
+├── routes/
+├── storage/
+└── tests/

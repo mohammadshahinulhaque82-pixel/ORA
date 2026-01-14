@@ -1,0 +1,6 @@
+php artisan make:migration create_services_table
+php artisan make:migration create_products_table
+php artisan make:migration create_bookings_table
+php artisan make:migration create_testimonials_table
+php artisan make:migration create_team_members_table
+php artisan make:migration create_blog_posts_table

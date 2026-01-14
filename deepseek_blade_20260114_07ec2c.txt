@@ -1,0 +1,199 @@
+@extends('frontend.layouts.app')
+
+@section('title', 'ORA Agency - Professional Home Services')
+@section('meta_description', 'Expert HVAC, Electrical, Plumbing, Interior Design & Construction services in Malaysia. 24/7 emergency service available.')
+
+@section('content')
+<!-- Hero Section -->
+<section class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('{{ asset('images/hero-1.jpg') }}');">
+                <div class="carousel-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption" data-aos="fade-up">
+                        <h1>Expert HVAC Services in Malaysia</h1>
+                        <p>Professional installation, maintenance, and repair services</p>
+                        <div class="hero-buttons">
+                            <a href="{{ route('booking.create') }}" class="btn btn-primary btn-lg">Book Now</a>
+                            <a href="{{ route('services') }}" class="btn btn-outline-light btn-lg">View Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item" style="background-image: url('{{ asset('images/hero-2.jpg') }}');">
+                <div class="carousel-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption" data-aos="fade-up">
+                        <h1>24/7 Emergency Services</h1>
+                        <p>Quick response for urgent repairs and assistance</p>
+                        <div class="hero-buttons">
+                            <a href="tel:+60173499084" class="btn btn-danger btn-lg"><i class="fas fa-phone"></i> Call Emergency</a>
+                            <a href="{{ route('contact') }}" class="btn btn-outline-light btn-lg">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item" style="background-image: url('{{ asset('images/hero-3.jpg') }}');">
+                <div class="carousel-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption" data-aos="fade-up">
+                        <h1>Complete Home Solutions</h1>
+                        <p>Electrical, Plumbing, Interior Design, and Construction services</p>
+                        <div class="hero-buttons">
+                            <a href="{{ route('services') }}" class="btn btn-primary btn-lg">Explore Services</a>
+                            <a href="{{ route('about') }}" class="btn btn-outline-light btn-lg">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Our Professional Services</h2>
+            <p class="section-subtitle">Quality service with guaranteed satisfaction</p>
+        </div>
+        
+        <div class="row g-4">
+            @foreach($services as $service)
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
+                <div class="service-card h-100">
+                    <div class="service-icon">
+                        <i class="{{ $service->icon }}"></i>
+                    </div>
+                    <h3>{{ $service->title }}</h3>
+                    <p>{{ Str::limit($service->description, 100) }}</p>
+                    
+                    @if($service->features)
+                    <ul class="service-features">
+                        @foreach(array_slice($service->features, 0, 3) as $feature)
+                        <li><i class="fas fa-check"></i> {{ $feature }}</li>
+                        @endforeach
+                    </ul>
+                    @endif
+                    
+                    <div class="service-footer mt-3">
+                        @if($service->price)
+                        <div class="service-price">
+                            From <span class="price">RM {{ number_format($service->price, 2) }}</span>
+                        </div>
+                        @endif
+                        <a href="{{ route('services.detail', $service->slug) }}" class="btn-service">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="{{ route('services') }}" class="btn btn-primary btn-lg">View All Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-choose-section py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="section-header mb-4">
+                    <h2 class="section-title">Why Choose ORA Agency?</h2>
+                </div>
+                
+                <div class="features-list">
+                    <div class="feature-item" data-aos="fade-up">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Certified Professionals</h4>
+                            <p>Our technicians are certified and experienced in their respective fields.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>24/7 Availability</h4>
+                            <p>Emergency services available round the clock for urgent situations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Service Warranty</h4>
+                            <p>All our services come with a warranty period for your peace of mind.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Transparent Pricing</h4>
+                            <p>No hidden charges. We provide clear quotes before starting any work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="{{ $stats['completed'] ?? 500 }}">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="{{ $stats['customers'] ?? 420 }}">0</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="{{ $stats['services'] ?? 58 }}">0</div>
+                        <div class="stat-label">Services Offered</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="{{ $stats['years'] ?? 5 }}">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing-section py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Aircond Service Packages</h

@@ -1,0 +1,20 @@
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ora_agency
+DB_USERNAME=root
+DB_PASSWORD=
+
+APP_NAME="ORA Agency"
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://ora-agency.test
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=oragency.my@gmail.com
+MAIL_PASSWORD=your_password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=oragency.my@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
